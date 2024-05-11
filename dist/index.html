@@ -1,14 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h1 class="bg-blue-300">Hello Tailwind</h1>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- navigation -->
+      <!-- welcome section -->
+      <!-- latest insights -->
+      <div class="container bg-gray-100 py-4 mx-8">
+        <div
+          class="mx-24 my-4 grid auto-rows-[30vh] grid-cols-1 gap-8 sm:grid-cols-12"
+        >
+          <div class="sm:relative sm:col-span-12">
+            <div class="h-[80%] bg-red-300 sm:relative sm:-left-12 sm:h-[100%]">
+              A
+            </div>
+            <div
+              class="relative -top-[5%] mx-auto h-[25%] w-[95%] bg-green-300 sm:absolute sm:right-0 sm:my-10 sm:h-[75%] sm:w-[50%]"
+            >
+              A1
+            </div>
+          </div>
+          <div class="sm:relative sm:order-2 sm:col-span-8">
+            <div class="h-[80%] bg-red-400 sm:relative sm:left-12 sm:h-[100%]">
+              B
+            </div>
+            <div
+              class="relative -top-[5%] mx-auto h-[25%] w-[95%] bg-green-400 sm:absolute sm:my-10 sm:h-[75%] sm:w-[50%]"
+            >
+              B1
+            </div>
+          </div>
+          <div
+            class="h-[50%] bg-gray-700 sm:col-span-4 sm:h-[100%] sm:w-[100%]"
+          >
+            C
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
