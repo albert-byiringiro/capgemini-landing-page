@@ -10,41 +10,63 @@
   <body>
     <div class="container">
       <!-- navigation -->
+      <nav></nav>
       <!-- welcome section -->
-      <!-- latest insights -->
-      <div class="container bg-gray-100 py-4 mx-8">
+      <!-- hero -->
+      <section
+        class="mx-8 my-4 grid auto-rows-[40vh] grid-cols-1 px-4 sm:grid-cols-12"
+      >
+        <div class="bg-blue-400 sm:order-2 sm:col-span-4"></div>
         <div
-          class="mx-24 my-4 grid auto-rows-[30vh] grid-cols-1 gap-8 sm:grid-cols-12"
+          class="relative -top-4 mx-auto w-[90%] rounded-sm bg-gray-200 sm:left-8 sm:top-6 sm:col-span-8 sm:h-[75%] sm:w-[100%]"
         >
-          <div class="sm:relative sm:col-span-12">
-            <div class="h-[80%] bg-red-300 sm:relative sm:-left-12 sm:h-[100%]">
-              <img
-                class="h-full w-full"
-                src="./../img/Commskit_Reindustrialization_V01DotCom_Banner_2880X1800.webp"
-                alt=""
-              />
-            </div>
+          A2
+        </div>
+      </section>
+      <!-- latest insights -->
+      <section class="py-8">
+        <div class="px-8 pb-8">
+          <h3 class="text-2xl">Latest Insight</h3>
+        </div>
+        <div
+          class="grid auto-rows-[50vh] grid-cols-1 gap-8 px-8 md:grid-cols-12"
+        >
+          <div class="md:relative md:col-span-12 md:ml-0">
             <div
-              class="relative -top-[5%] mx-auto h-[25%] w-[95%] bg-white rounded-sm sm:absolute sm:right-0 sm:my-10 sm:h-[75%] sm:w-[50%]"
+              class="h-[80%] bg-red-300 sm:relative md:-left-12 md:h-[100%]"
             ></div>
-          </div>
-          <div class="sm:relative sm:order-2 sm:col-span-8">
-            <div class="h-[80%] bg-red-400 sm:relative sm:left-12 sm:h-[100%]">
-              B
-            </div>
             <div
-              class="relative -top-[5%] mx-auto h-[25%] w-[95%] bg-green-400 sm:absolute sm:my-10 sm:h-[75%] sm:w-[50%]"
+              class="relative -top-[5%] mx-auto h-[25%] w-[95%] rounded-sm bg-gray-300 md:absolute md:right-0 md:my-16 md:h-[75%] md:w-[50%] lg:w-[40%]"
             >
-              B1
+              <p>Report 1</p>
             </div>
           </div>
           <div
-            class="h-[50%] bg-gray-700 sm:col-span-4 sm:h-[100%] sm:w-[100%]"
+            class="grid auto-rows-[50vh] grid-cols-1 gap-4 md:relative md:col-span-12 md:grid-cols-12 md:gap-8"
           >
-            C
+            <div class="md:col-span-6 lg:order-2">
+              <div
+                class="h-[80%] bg-red-400 md:invisible md:relative md:left-12 md:h-[100%] lg:visible"
+              ></div>
+              <div
+                class="relative -top-[5%] mx-auto h-[25%] w-[95%] rounded-sm bg-gray-300 md:absolute md:my-16 md:h-[75%] md:w-[50%] lg:w-[25%]"
+              >
+                <p>Report</p>
+              </div>
+            </div>
+            <div
+              class="h-[25%] bg-blue-700 md:col-span-6 md:h-[100%] md:w-[100%]"
+            >
+              <h2>Research Institute</h2>
+            </div>
           </div>
         </div>
-      </div>
+        <div class="my-36 px-28 md:mt-[10%] md:px-8">
+          <a href="#" class="rounded-full border-2 px-10 py-3"
+            >More Analytics</a
+          >
+        </div>
+      </section>
     </div>
   </body>
 </html>
